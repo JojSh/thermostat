@@ -1,18 +1,22 @@
+<script src="js/thermostat.js"></script>
 
-<script src="../src/thermostat.js"></script>
-
+<!DOCTYPE html>
 <html>
+  <head>
+    <title>Thermostat</title>
+  </head>
   <body>
+    <section>
+      <h1 id="temperature"></h1>
+      <p>
+        <button id="temperature-up">Up</button>
+        <button id="temperature-down">Down</button>
+        <button id="teperature-reset">Reset</button>
 
-  <h1> TEMPTURE </h1>
-
-    <button id='show-temp'> Show Temp </button>
-    <button id='increase-temp'> Increase Temp </button>
-    <button id='decrease-temp'> Decrease Temp </button>
-     power saving mode is <span id="power-saving-status">on</span>
-    <button id='power-save-on'> Power Save On </button>
-    <button id='power-save-off'> Power Save Off </button>
-    <button id='power-reset'> Power Reset </button>
-    <button id='set-colour'> Set Colour </button>
+        power save mode = <span id="power-saving-status">On</span>
+        <button id="powersaving-on">PSM on</button>
+        <button id="powersaving-off">PSM off</button>
+      </p>
+    </section>
   </body>
 </html>

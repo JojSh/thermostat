@@ -18,7 +18,7 @@ function Thermostat(start) {
     if (this.currentTemp >= this.max) {
       throw new Error('sweaty')
     } else {
-    this.currentTemp++ }
+    currentTemp++ }
   };
 
   Thermostat.prototype.decreaseTemp = function() {
