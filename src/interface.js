@@ -1,4 +1,5 @@
 $( document ).ready(function() {
+  //get request
 
   var thermostat = new Thermostat();
 
@@ -9,8 +10,8 @@ $( document ).ready(function() {
     $( "#rectangle" ).css( "background-color", thermostat.energyUsage() );
   }
 
-  updateDisplay();
 
+  updateDisplay();
 
   $( "#temperature-increase" ).on( "click", function( event ) {
     thermostat.increase();
